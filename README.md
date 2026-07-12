@@ -1,122 +1,153 @@
 ````markdown
+# 🌱 KrishiDrishti – AI-Powered Plant Disease Detection & Information Platform
 
+## **📖 Overview**
 
-## 📖 Overview
+**KrishiDrishti** is an AI-powered web application developed to simplify plant disease diagnosis and provide comprehensive plant information for farmers, students, gardeners, and agriculture enthusiasts.
 
-**KrishiDrishti** is an AI-powered web application developed to support farmers by making plant disease diagnosis and agricultural knowledge more accessible. The platform enables users to scan plant leaves to detect diseases, receive treatment recommendations, and explore detailed information about various plants.
+The project was initially designed to support **Bengal farmers** by offering an easy-to-use platform where users can scan plant leaves to identify diseases and instantly receive treatment recommendations, preventive measures, and crop care guidance.
 
-The application was designed with a focus on usability for Bengali farmers, ensuring that important agricultural information is available in multiple languages with voice assistance for improved accessibility.
+In addition to disease detection, the platform includes a **Plant Information System** containing details of **150+ plants**, making it a one-stop solution for agricultural knowledge.
+
+To make the application accessible to a wider audience, all information is available in **English, Hindi, and Bengali**, along with **voice assistance** so users can listen to the information in their preferred language instead of reading it.
+
+The application is built using **HTML, CSS, JavaScript, JSON, and API integration**, deployed on **Netlify**, and indexed using **Google Search Console** for improved visibility.
 
 ---
 
-## ✨ Key Features
+## **✨ Features**
 
-### 🌿 AI-Powered Plant Disease Detection
+### **🌿 AI-Powered Plant Disease Detection**
 - Upload or scan a plant leaf image.
 - Detect possible plant diseases using AI-powered image analysis.
-- View disease details with confidence-based results.
+- Display disease name with treatment recommendations.
+- Suggest preventive measures to reduce crop damage.
+- Provide medicine recommendations and application procedures.
 
-### 💊 Disease Treatment & Prevention
-- Recommended medicines.
-- Treatment procedures.
-- Preventive measures to reduce disease spread.
-- Crop care guidance.
+---
 
-### 🌱 Comprehensive Plant Information
-Explore information for **150+ plants**, including:
+### **🌱 Plant Information System**
+
+The application contains information for **150+ plants**, including:
 
 - Scientific Name
 - Common Name
-- Plant History
-- Uses
 - Plant Description
+- History
+- Botanical Classification
 - Agricultural Importance
-- Additional Botanical Information
-
-### 🌍 Multilingual Support
-The application supports three languages:
-
-- 🇮🇳 English
-- 🇮🇳 Hindi
-- 🇮🇳 Bengali
-
-This helps farmers access information in their preferred language.
-
-### 🔊 Voice Assistance
-To improve accessibility, users can listen to plant information and disease details using built-in voice support in their selected language.
-
-### 🕒 Search History
-- Stores previously searched plants.
-- Allows users to quickly revisit earlier searches without searching again.
-
-### 📝 Manually Curated Information
-While API-based information may occasionally be incomplete, additional plant details were manually curated and maintained using structured JSON data to ensure users receive comprehensive information.
+- Medicinal Uses
+- General Uses
+- Additional Plant Information
 
 ---
 
-## 🛠️ Tech Stack
+### **🌍 Multilingual Support**
 
-### Frontend
+To make the platform more accessible, all information is available in:
+
+- English
+- Hindi
+- Bengali
+
+Users can easily switch between languages according to their preference.
+
+---
+
+### **🔊 Voice Assistance**
+
+The application includes a voice feature that reads plant information and disease details aloud in the selected language, making it useful for users who prefer listening over reading.
+
+---
+
+### **🕒 Search History**
+
+Users can access their previously searched plants through a built-in history feature, allowing quicker navigation and improving the overall user experience.
+
+---
+
+### **📝 Enhanced Plant Database**
+
+Although APIs provide most of the plant information, some responses were incomplete or missing. To ensure users always receive comprehensive details, additional information for numerous plants was manually organized and stored using structured JSON data.
+
+---
+
+## **🛠️ Tech Stack**
+
+### **Frontend**
 - HTML5
 - CSS3
 - JavaScript (ES6)
 
-### APIs & Data
-- AI Plant Disease Detection API
+### **APIs & Data**
+- Plant Disease Detection API
 - Plant Information API
-- JSON Data Management
+- JSON
 
-### Deployment
+### **Deployment**
 - Netlify
 
-### Tools & Services
+### **Tools**
 - Git
 - GitHub
 - Google Search Console
 
 ---
 
-## 🚀 Live Demo
+## **🚀 Live Demo**
 
-🔗 **https://soft-raindrop-383778.netlify.app/**
+**https://soft-raindrop-383778.netlify.app/**
 
 ---
 
-## ⚙️ How It Works
+## **⚙️ How It Works**
 
 1. Open the KrishiDrishti web application.
 2. Upload or scan a plant leaf image.
 3. The image is analyzed using an AI-powered plant disease detection API.
-4. The application identifies possible diseases.
+4. The application identifies the possible disease.
 5. Users receive:
    - Disease Name
-   - Disease Description
+   - Disease Details
    - Recommended Medicines
    - Treatment Procedure
    - Preventive Measures
-6. Users can also search any supported plant to access detailed information.
+6. Users can also search any supported plant to access complete plant information.
 7. Information can be viewed or listened to in English, Hindi, or Bengali.
 
 ---
 
----
+## **📂 Project Structure**
 
-## 🌟 Project Highlights
-
-- 🌿 AI-powered plant disease detection
-- 📚 Database containing information for **150+ plants**
-- 🌍 Multilingual support (English, Hindi & Bengali)
-- 🔊 Voice assistance for improved accessibility
-- 💊 Disease treatment and preventive guidance
-- 📱 Responsive and mobile-friendly interface
-- 📝 Manual data enhancement using JSON
-- ⚡ Fast, lightweight, and user-friendly web application
-- ☁️ Successfully deployed on Netlify
-- 🔍 Indexed using Google Search Console for improved discoverability
+```text
+KrishiDrishti/
+│── index.html
+│── style.css
+│── script.js
+│── assets/
+│── data/
+│── README.md
+│── netlify.toml
+```
 
 ---
 
-## 💡 Applications
+## **🌟 Project Highlights**
+
+- AI-powered plant disease detection.
+- Information database for **150+ plants**.
+- Multilingual support (English, Hindi & Bengali).
+- Voice assistance for improved accessibility.
+- Medicine recommendations and preventive guidance.
+- Manual JSON-based data enhancement for missing API responses.
+- Search history for faster navigation.
+- Responsive web design.
+- Successfully deployed on Netlify.
+- Indexed using Google Search Console.
+
+---
+
+## **💡 Applications**
 
 - Smart Agriculture
 - Crop Disease Diagnosis
@@ -127,49 +158,37 @@ While API-based information may occasionally be incomplete, additional plant det
 
 ---
 
-## 🎯 Future Enhancements
+## **🔮 Future Enhancements**
 
 - Weather-based disease prediction
 - Fertilizer recommendation system
 - Pest detection
-- Farmer community forum
+- AI chatbot for farmers
+- Crop health tracking
+- Mobile application
 - Offline support
-- AI chatbot for agricultural guidance
-- Mobile application (Android & iOS)
 
 ---
 
-## 🤝 Contributing
-
-Contributions, suggestions, and feature requests are welcome.
-
-1. Fork the repository.
-2. Create a new branch.
-3. Commit your changes.
-4. Push your branch.
-5. Open a Pull Request.
-
----
-
-## 👩‍💻 Author
+## **👩‍💻 Author**
 
 **Roshni Sharma**
 
 B.Tech in Data Science
 
-GitHub: https://github.com/roshni232003
+GitHub: **https://github.com/roshni232003**
 
 ---
 
-## ⭐ Support
+## **⭐ Support**
 
 If you found this project useful, consider giving it a **⭐ Star** on GitHub.
 
-Your support motivates future improvements and open-source contributions.
+Your support encourages further improvements and future development.
 
 ---
 
-## 📜 License
+## **📄 License**
 
-This project was developed for educational and academic purposes.
+This project was developed for educational and learning purposes.
 ````
