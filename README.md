@@ -1,4 +1,4 @@
-````markdown
+
 # 🌱 KrishiDrishti – AI-Powered Plant Disease Detection & Information Platform
 
 ## **📖 Overview**
@@ -191,4 +191,4 @@ Your support encourages further improvements and future development.
 ## **📄 License**
 
 This project was developed for educational and learning purposes.
-````
+
